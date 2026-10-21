@@ -157,3 +157,4 @@ h2{color:var(--blue)}
 .about-img img{object-position:center 20%}
 footer{border-top:6px solid var(--red)}
 @media(max-width:860px){.brand img{height:64px}.hero-img{margin-top:-20px}}
+.quotes.two-col{align-items:start}
