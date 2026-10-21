@@ -120,3 +120,40 @@ footer{background:var(--navy);color:#b8c3de;padding:48px 0 24px}
 .checks li{border:1px solid var(--line);border-radius:12px;padding:20px 22px;color:var(--muted);font-size:.93rem;background:var(--white);border-top:3px solid var(--red)}
 .checks li b{display:block;color:var(--navy);font-size:1rem;margin-bottom:4px}
 @media(max-width:860px){.checks{grid-template-columns:1fr}}
+
+/* ---- flag palette: stronger red & blue ---- */
+.flagbar{height:10px;background:linear-gradient(90deg,var(--red) 0 33.3%,#fff 33.3% 66.6%,var(--blue) 66.6%)}
+.site-header{border-bottom:4px solid var(--red)}
+.brand img{height:84px;width:auto;display:block}
+nav a{color:var(--blue);font-weight:600}
+nav a:hover{color:var(--red)}
+nav a.active{color:var(--red);box-shadow:inset 0 -3px 0 var(--blue)}
+.btn-dark{background:var(--red);color:#fff}
+.btn-dark:hover{background:var(--blue)}
+.btn-outline{border-color:var(--blue);color:var(--blue)}
+.btn-outline:hover{background:var(--blue);color:#fff}
+.hero,.intro{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff}
+.hero h1,.intro h1{color:#fff}
+.hero p,.intro p{color:#cfdaf5}
+.hero{padding-bottom:70px}
+.hero-img{margin-top:-30px;margin-bottom:40px;position:relative;background:#fff;box-shadow:0 12px 30px rgba(10,31,68,.18)}
+.intro{padding:56px 0 52px;border-bottom:6px solid var(--red)}
+h2{color:var(--blue)}
+.band.navy{background:var(--navy);color:#fff}
+.band.navy h2,.band.navy h3{color:#fff}
+.band.navy p{color:#cfdaf5}
+.band.navy .svc h3{color:var(--navy)}
+.band.navy .svc p{color:var(--muted)}
+.band.navy .btn-dark:hover{background:#fff;color:var(--red)}
+.band.blue{background:var(--blue);color:#fff}
+.band.blue h2{color:#fff}
+.band.blue p{color:#dbe5ff}
+.band.blue .quote blockquote{color:var(--ink)}
+.band.blue .sig{color:#fff!important;border-left-color:var(--red)}
+.svc .ico{background:var(--blue);color:#fff}
+.stats b{color:var(--red)}
+.checks li{border-top-color:var(--blue)}
+.cta{background:var(--red)}
+.about-img img{object-position:center 20%}
+footer{border-top:6px solid var(--red)}
+@media(max-width:860px){.brand img{height:64px}.hero-img{margin-top:-20px}}
