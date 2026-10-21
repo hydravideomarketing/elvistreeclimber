@@ -109,3 +109,14 @@ footer{background:var(--navy);color:#b8c3de;padding:48px 0 24px}
 /* when a real photo is dropped into a slot, fill it */
 .hero-img img,.shot img,.about-img img{width:100%;height:100%;object-fit:cover;display:block}
 .hero-img:has(img),.shot:has(img),.about-img:has(img){border:0;padding:0}
+
+/* about page long-form */
+.prose h2{margin-bottom:14px}
+.prose p{color:var(--muted);margin:0 0 16px}
+.lhs.prose p{margin:0 0 16px}
+.sig{color:var(--navy)!important;border-left:3px solid var(--red);padding-left:14px;margin-top:24px!important}
+.list-title{margin:36px 0 16px;font-size:1.2rem}
+.checks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.checks li{border:1px solid var(--line);border-radius:12px;padding:20px 22px;color:var(--muted);font-size:.93rem;background:var(--white);border-top:3px solid var(--red)}
+.checks li b{display:block;color:var(--navy);font-size:1rem;margin-bottom:4px}
+@media(max-width:860px){.checks{grid-template-columns:1fr}}
