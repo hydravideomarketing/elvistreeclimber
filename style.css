@@ -165,3 +165,12 @@ h1,h2{text-transform:uppercase;letter-spacing:.01em}
 
 .hero-img:has(img){aspect-ratio:2000/848}
 @media(max-width:860px){.hero-img:has(img){aspect-ratio:2000/848}}
+
+/* big call button */
+.call-btn{display:inline-flex;flex-direction:column;align-items:center;gap:4px;background:var(--red);color:#fff;padding:20px 48px;border-radius:14px;border:3px solid #fff;box-shadow:0 10px 28px rgba(0,0,0,.35);transition:.15s;animation:callpulse 2.2s infinite}
+.call-btn:hover{background:#fff;color:var(--red);border-color:var(--red);transform:translateY(-2px)}
+.call-num{font-size:clamp(1.9rem,6vw,3rem);font-weight:900;letter-spacing:.02em;line-height:1.1}
+.call-sub{font-size:clamp(.8rem,2.4vw,1rem);font-weight:800;letter-spacing:.18em}
+@keyframes callpulse{0%{box-shadow:0 10px 28px rgba(0,0,0,.35),0 0 0 0 rgba(191,10,48,.6)}70%{box-shadow:0 10px 28px rgba(0,0,0,.35),0 0 0 18px rgba(191,10,48,0)}100%{box-shadow:0 10px 28px rgba(0,0,0,.35),0 0 0 0 rgba(191,10,48,0)}}
+@media(prefers-reduced-motion:reduce){.call-btn{animation:none}}
+.hero p{margin-bottom:32px}
