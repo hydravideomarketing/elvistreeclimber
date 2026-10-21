@@ -199,3 +199,13 @@ h1,h2{text-transform:uppercase;letter-spacing:.01em}
 .icon-img img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
 .icon-card h3{font-size:1.05rem;text-transform:uppercase;letter-spacing:.02em;color:var(--navy);margin:0}
 @media(max-width:900px){.icon-grid{grid-template-columns:1fr 1fr}}
+
+.band-tint{background:var(--tint)}
+.feature{display:grid;grid-template-columns:1fr 1.6fr;gap:40px;align-items:center}
+.feature-img{display:flex;justify-content:center}
+.feature-img img{max-width:260px;width:100%;height:auto}
+.feature-txt h2{margin-top:0}
+.feature-txt p{color:var(--muted);line-height:1.7}
+.feature-txt .btn{margin-top:8px}
+@media(max-width:800px){.feature{grid-template-columns:1fr;gap:20px;text-align:center}}
+.feature-txt h2{margin-bottom:14px}.feature-txt p{margin:0 0 14px}
