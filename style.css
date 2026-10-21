@@ -158,3 +158,7 @@ h2{color:var(--blue)}
 footer{border-top:6px solid var(--red)}
 @media(max-width:860px){.brand img{height:64px}.hero-img{margin-top:-20px}}
 .quotes.two-col{align-items:start}
+
+/* all-caps page and section titles */
+h1,h2{text-transform:uppercase;letter-spacing:.01em}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem)}
