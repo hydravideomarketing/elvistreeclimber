@@ -162,3 +162,6 @@ footer{border-top:6px solid var(--red)}
 /* all-caps page and section titles */
 h1,h2{text-transform:uppercase;letter-spacing:.01em}
 .hero h1{font-size:clamp(2rem,5vw,3.2rem)}
+
+.hero-img:has(img){aspect-ratio:2000/848}
+@media(max-width:860px){.hero-img:has(img){aspect-ratio:2000/848}}
