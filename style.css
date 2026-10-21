@@ -185,3 +185,10 @@ h1,h2{text-transform:uppercase;letter-spacing:.01em}
 
 .about-img.wide{aspect-ratio:4/3}
 .about-img.wide img{object-position:center}
+
+.gallery{columns:3;column-gap:16px}
+.gallery .gitem{display:block;margin:0 0 16px;break-inside:avoid;border-radius:12px;overflow:hidden;background:var(--tint)}
+.gallery .gitem img{width:100%;height:auto;display:block;transition:transform .3s}
+.gallery .gitem:hover img{transform:scale(1.03)}
+@media(max-width:900px){.gallery{columns:2}}
+@media(max-width:520px){.gallery{columns:1}}
