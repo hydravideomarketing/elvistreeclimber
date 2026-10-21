@@ -209,3 +209,11 @@ h1,h2{text-transform:uppercase;letter-spacing:.01em}
 .feature-txt .btn{margin-top:8px}
 @media(max-width:800px){.feature{grid-template-columns:1fr;gap:20px;text-align:center}}
 .feature-txt h2{margin-bottom:14px}.feature-txt p{margin:0 0 14px}
+
+.faq{margin-top:18px}
+.faq details{border:1px solid var(--line);border-radius:10px;background:#fff;margin-bottom:10px;padding:0 18px}
+.faq summary{cursor:pointer;font-weight:700;color:var(--navy);padding:16px 0;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--red);font-size:1.3rem;line-height:1}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{margin:0 0 16px;color:var(--muted);line-height:1.7}
