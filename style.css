@@ -237,3 +237,7 @@ nav ul{gap:2px}
   nav{order:3;width:100%}
   nav ul{justify-content:center}
 }
+
+.vid-feature{margin:0 auto 32px;max-width:380px;text-align:center}
+.vid-feature video{width:100%;height:auto;aspect-ratio:9/16;max-height:80vh;object-fit:contain;border-radius:12px;background:#000;display:block;margin:0 auto}
+.vid-feature figcaption{margin-top:12px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.04em}
