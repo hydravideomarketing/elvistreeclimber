@@ -241,3 +241,6 @@ nav ul{gap:2px}
 .vid-feature{margin:0 auto 32px;max-width:380px;text-align:center}
 .vid-feature video{width:100%;height:auto;aspect-ratio:9/16;max-height:80vh;object-fit:contain;border-radius:12px;background:#000;display:block;margin:0 auto}
 .vid-feature figcaption{margin-top:12px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.04em}
+
+.vid-card{margin:0}
+.vid-card figcaption{margin-top:10px;font-weight:600;font-size:.95rem;color:var(--navy);line-height:1.35}
